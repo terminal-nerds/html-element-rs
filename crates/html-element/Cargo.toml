@@ -1,0 +1,21 @@
+#:schema https://json.schemastore.org/cargo.json
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[package]
+name = "html-element"
+description = "Modular, type-safe, ergonomic, WHATWG complaint usage of HTML elements."
+categories = ["graphics", "gui", "rendering", "wasm", "web-programming"]
+keywords = ["html", "element", "tag", "whatwg"]
+authors = ["Mateusz Kadlubowski <xeho91@pm.me>"]
+documentation = { workspace = true }
+edition = { workspace = true }
+homepage = { workspace = true }
+license-file = { workspace = true }
+publish = { workspace = true }
+readme = { workspace = true }
+repository = { workspace = true }
+version = { workspace = true }
+
+[dependencies]
+strum = { workspace = true }
+strum_macros = { workspace = true }
